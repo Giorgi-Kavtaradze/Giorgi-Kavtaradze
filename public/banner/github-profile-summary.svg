@@ -1,0 +1,324 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="336" viewBox="0 0 700 336">
+  <style>
+    * {
+      font-family: 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif;
+    }
+
+    /* ============================== */
+    /* GitHub Light Mode (Modern)     */
+    /* ============================== */
+    @media (prefers-color-scheme: light) {
+
+      /* --- ALL text pure black --- */
+      text,
+      text *,
+      g[color="#cbd5e1"] text {
+        fill: #000000 !important;
+      }
+
+      /* --- Icon paths (top 4 info icons: github, repo, clock, mail) --- */
+      g g[fill="#cbd5e1"] path {
+        fill: #000000 !important;
+      }
+
+      /* --- Chart axis lines + paths (ticks, domain lines) --- */
+      g[color="#cbd5e1"] line,
+      g[color="#cbd5e1"] path {
+        stroke: #000000 !important;
+      }
+
+      /* --- Donut outer ring --- */
+      circle[r="47.5"][stroke-width="25"] {
+        stroke: #d0d7de !important;
+      }
+
+      /* --- Borders: donut segments + language color rects --- */
+      path[stroke="#1d252c"],
+      rect[stroke="#1d252c"] {
+        stroke: #d0d7de !important;
+      }
+
+      /* --- Contributions area chart green --- */
+      path[fill="#40c463"] {
+        fill: #40c463 !important;
+        stroke: #40c463 !important;
+      }
+
+      /* --- Octocat icon: keep same #3178c6 blue as dark mode --- */
+      g[transform="translate(220,22)"] path {
+        fill: #3178c6 !important;
+      }
+    }
+  </style>
+
+  <!-- ============================================================= -->
+  <!-- TOP CARD (y = 0 … 178) : Profile Details                      -->
+  <!-- ============================================================= -->
+  <g class="gpsc-root">
+    <rect x="1" y="1" rx="5" ry="5" height="176" width="697.9999999999999" stroke="#2e343b"
+      stroke-width="1" fill="none" stroke-opacity="0"></rect>
+    <text x="0" y="18" class="gpsc-item" style="--gpsc-i: 0; font-size: 17px; fill: #ffffff;">
+      Giorgi-Kavtaradze</text>
+    <g transform="translate(0,18)">
+      <g transform="translate(0,30.5)">
+        <g class="gpsc-item" style="--gpsc-i: 0;">
+          <g transform="translate(0,0)" width="14" height="14" fill="#cbd5e1">
+            <path fill-rule="evenodd"
+              d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+          </g>
+        </g>
+        <g class="gpsc-item" style="--gpsc-i: 1;">
+          <g transform="translate(0,28)" width="14" height="14" fill="#cbd5e1">
+            <path fill-rule="evenodd"
+              d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path>
+          </g>
+        </g>
+        <g class="gpsc-item" style="--gpsc-i: 2;">
+          <g transform="translate(0,56)" width="14" height="14" fill="#cbd5e1">
+            <path fill-rule="evenodd"
+              d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zm.5 4.75a.75.75 0 00-1.5 0v3.5a.75.75 0 00.471.696l2.5 1a.75.75 0 00.557-1.392L8.5 7.742V4.75z"></path>
+          </g>
+        </g>
+        <g class="gpsc-item" style="--gpsc-i: 3;">
+          <g transform="translate(0,84)" width="14" height="14" fill="#cbd5e1">
+            <path fill-rule="evenodd"
+              d="M1.75 2A1.75 1.75 0 000 3.75v.736a.75.75 0 000 .027v7.737C0 13.216.784 14 1.75 14h12.5A1.75 1.75 0 0016 12.25v-8.5A1.75 1.75 0 0014.25 2H1.75zM14.5 4.07v-.32a.25.25 0 00-.25-.25H1.75a.25.25 0 00-.25.25v.32L8 7.88l6.5-3.81zm-13 1.74v6.441c0 .138.112.25.25.25h12.5a.25.25 0 00.25-.25V5.809L8.38 9.397a.75.75 0 01-.76 0L1.5 5.809z"></path>
+          </g>
+        </g>
+        <text x="21" y="14" class="gpsc-item" style="--gpsc-i: 0; fill: #cbd5e1; font-size: 14px;">2.56k
+          Contributions on GitHub</text>
+        <text x="21" y="42" class="gpsc-item" style="--gpsc-i: 1; fill: #cbd5e1; font-size: 14px;">143
+          Public Repos</text>
+        <text x="21" y="70" class="gpsc-item" style="--gpsc-i: 2; fill: #cbd5e1; font-size: 14px;">Joined
+          GitHub 2 years ago</text>
+        <text x="21" y="98" class="gpsc-item" style="--gpsc-i: 3; fill: #cbd5e1; font-size: 14px;">
+          Giorgi.Kavtaradze@mail.ru</text>
+      </g>
+      <g color="#40c463" transform="translate(323,10)">
+        <clipPath id="pd-gpsc-reveal-clip">
+          <rect x="-30" y="0" width="410" height="110"></rect>
+        </clipPath>
+        <g clip-path="url(#pd-gpsc-reveal-clip)" class="gpsc-chart" style="--gpsc-i: 4;">
+          <path transform="translate(-33,0)" stroke="#40c463" fill="#40c463" opacity="1"
+            d="M0,110C9.620253164556962,110,19.240506329113927,110,28.860759493670887,110C38.801687763713076,110,48.74261603375527,104.89578627808136,58.68354430379746,102.66666666666667C68.30379746835443,100.50945413949115,77.92405063291139,96.8,87.54430379746836,96.8C97.48523206751055,96.8,107.42616033755273,106.82222222222222,117.36708860759492,106.82222222222222C127.30801687763712,106.82222222222222,137.2489451476793,106.08888888888889,147.18987341772151,104.62222222222222C156.168776371308,103.29749103942652,165.1476793248945,90.93333333333334,174.126582278481,90.93333333333334C184.0675105485232,90.93333333333334,194.0084388185654,106.33333333333333,203.94936708860757,106.33333333333333C213.56962025316454,106.33333333333333,223.18987341772151,105.6,232.81012658227849,104.13333333333333C242.75105485232066,102.61777777777777,252.69198312236287,98.67407407407407,262.63291139240505,87.75555555555556C272.253164556962,77.18924731182796,281.873417721519,0.9777777777777719,291.49367088607596,0.9777777777777719C301.43459915611817,0.9777777777777719,311.3755274261603,50.35555555555557,321.3164556962025,63.55555555555555C331.25738396624473,76.75555555555556,341.19831223628694,76.98606354988868,351.13924050632914,83.35555555555555C360.7594936708861,89.51958007716864,370.37974683544303,95.35979003858432,380,101.2L380,110C370.37974683544303,110,360.7594936708861,110,351.13924050632914,110C341.19831223628694,110,331.25738396624473,110,321.3164556962025,110C311.3755274261603,110,301.43459915611817,110,291.49367088607596,110C281.873417721519,110,272.253164556962,110,262.63291139240505,110C252.69198312236287,110,242.75105485232066,110,232.81012658227849,110C223.18987341772151,110,213.56962025316454,110,203.94936708860757,110C194.0084388185654,110,184.0675105485232,110,174.126582278481,110C165.1476793248945,110,156.168776371308,110,147.18987341772151,110C137.2489451476793,110,127.30801687763712,110,117.36708860759492,110C107.42616033755273,110,97.48523206751055,110,87.54430379746836,110C77.92405063291139,110,68.30379746835443,110,58.68354430379746,110C48.74261603375527,110,38.801687763713076,110,28.860759493670887,110C19.240506329113927,110,9.620253164556962,110,0,110Z"></path>
+        </g>
+        <g color="#cbd5e1" transform="translate(-33,110)" fill="none" font-size="10"
+          font-family="sans-serif" text-anchor="middle">
+          <path class="domain" stroke="currentColor" d="M0.5,6V0.5H380.5V6"></path>
+          <g class="tick" opacity="1" transform="translate(0.5,0)">
+            <line stroke="currentColor" y2="6"></line>
+            <text fill="currentColor" y="9" dy="0.71em">25/09</text>
+          </g>
+          <g class="tick" opacity="1" transform="translate(59.18354430379746,0)">
+            <line stroke="currentColor" y2="6"></line>
+            <text fill="currentColor" y="9" dy="0.71em">25/11</text>
+          </g>
+          <g class="tick" opacity="1" transform="translate(117.86708860759492,0)">
+            <line stroke="currentColor" y2="6"></line>
+            <text fill="currentColor" y="9" dy="0.71em">26/01</text>
+          </g>
+          <g class="tick" opacity="1" transform="translate(174.626582278481,0)">
+            <line stroke="currentColor" y2="6"></line>
+            <text fill="currentColor" y="9" dy="0.71em">26/03</text>
+          </g>
+          <g class="tick" opacity="1" transform="translate(233.31012658227849,0)">
+            <line stroke="currentColor" y2="6"></line>
+            <text fill="currentColor" y="9" dy="0.71em">26/05</text>
+          </g>
+          <g class="tick" opacity="1" transform="translate(291.99367088607596,0)">
+            <line stroke="currentColor" y2="6"></line>
+            <text fill="currentColor" y="9" dy="0.71em">26/07</text>
+          </g>
+          <g class="tick" opacity="1" transform="translate(351.63924050632914,0)">
+            <line stroke="currentColor" y2="6"></line>
+            <text fill="currentColor" y="9" dy="0.71em">26/09</text>
+          </g>
+        </g>
+        <g color="#cbd5e1" transform="translate(347,0)" fill="none" font-size="10"
+          font-family="sans-serif" text-anchor="start">
+          <path class="domain" stroke="currentColor" d="M6,110.5H0.5V0.5H6"></path>
+          <g class="tick" opacity="1" transform="translate(0,110.5)">
+            <line stroke="currentColor" x2="6"></line>
+            <text fill="currentColor" x="9" dy="0.32em">0</text>
+          </g>
+          <g class="tick" opacity="1" transform="translate(0,98.27777777777777)">
+            <line stroke="currentColor" x2="6"></line>
+            <text fill="currentColor" x="9" dy="0.32em">50</text>
+          </g>
+          <g class="tick" opacity="1" transform="translate(0,86.05555555555556)">
+            <line stroke="currentColor" x2="6"></line>
+            <text fill="currentColor" x="9" dy="0.32em">100</text>
+          </g>
+          <g class="tick" opacity="1" transform="translate(0,73.83333333333334)">
+            <line stroke="currentColor" x2="6"></line>
+            <text fill="currentColor" x="9" dy="0.32em">150</text>
+          </g>
+          <g class="tick" opacity="1" transform="translate(0,61.611111111111114)">
+            <line stroke="currentColor" x2="6"></line>
+            <text fill="currentColor" x="9" dy="0.32em">200</text>
+          </g>
+          <g class="tick" opacity="1" transform="translate(0,49.388888888888886)">
+            <line stroke="currentColor" x2="6"></line>
+            <text fill="currentColor" x="9" dy="0.32em">250</text>
+          </g>
+          <g class="tick" opacity="1" transform="translate(0,37.16666666666667)">
+            <line stroke="currentColor" x2="6"></line>
+            <text fill="currentColor" x="9" dy="0.32em">300</text>
+          </g>
+          <g class="tick" opacity="1" transform="translate(0,24.944444444444443)">
+            <line stroke="currentColor" x2="6"></line>
+            <text fill="currentColor" x="9" dy="0.32em">350</text>
+          </g>
+          <g class="tick" opacity="1" transform="translate(0,12.722222222222229)">
+            <line stroke="currentColor" x2="6"></line>
+            <text fill="currentColor" x="9" dy="0.32em">400</text>
+          </g>
+          <g class="tick" opacity="1" transform="translate(0,0.5)">
+            <line stroke="currentColor" x2="6"></line>
+            <text fill="currentColor" x="9" dy="0.32em">450</text>
+          </g>
+        </g>
+        <g>
+          <text y="-10" x="-45" style="fill: #ffffff; font-size: 17px;">Contributions in the last
+            year</text>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- ============================================================= -->
+  <!-- BOTTOM CARD (y = 178 … 343) : Top Languages + GitHub Stats    -->
+  <!-- ============================================================= -->
+  <g transform="translate(0,178)">
+
+    <!-- Left Card: Top Languages by Repo -->
+    <g transform="translate(0, 0)">
+      <g class="gpsc-root">
+        <rect x="1" y="1" rx="5" ry="5" height="163" width="348" stroke="#000000"
+          stroke-width="1" fill="none" stroke-opacity="0"></rect>
+        <text x="0" y="16" class="gpsc-item" style="--gpsc-i: 0; font-size: 17px; fill: #e2e8f0;">Top
+          Languages by Repo</text>
+        <g transform="translate(1,16)">
+          <g transform="translate(0,0)">
+            <rect y="18" width="14" height="14" rx="3" class="gpsc-item"
+              style="--gpsc-i: 0; stroke-width: 1px;" fill="#f1e05a" stroke="#1d252c"></rect>
+            <rect y="43.2" width="14" height="14" rx="3" class="gpsc-item"
+              style="--gpsc-i: 1; stroke-width: 1px;" fill="#dea584" stroke="#1d252c"></rect>
+            <rect y="68.4" width="14" height="14" rx="3" class="gpsc-item"
+              style="--gpsc-i: 2; stroke-width: 1px;" fill="#3178c6" stroke="#1d252c"></rect>
+            <rect y="93.60000000000002" width="14" height="14" rx="3" class="gpsc-item"
+              style="--gpsc-i: 3; stroke-width: 1px;" fill="#7355dd" stroke="#1d252c"></rect>
+            <rect y="118.80000000000001" width="14" height="14" rx="3" class="gpsc-item"
+              style="--gpsc-i: 4; stroke-width: 1px;" fill="#3572A5" stroke="#1d252c"></rect>
+            <text x="16.8" y="30" class="gpsc-item"
+              style="--gpsc-i: 0; fill: #cbd5e1; font-size: 14px;">JavaScript</text>
+            <text x="115" y="30" text-anchor="end" class="gpsc-item"
+              style="--gpsc-i: 0; fill: #e2e8f0; font-size: 14px; font-weight: 400;">22%</text>
+            <text x="16.8" y="55.2" class="gpsc-item"
+              style="--gpsc-i: 1; fill: #cbd5e1; font-size: 14px;">Rust</text>
+            <text x="70" y="55.2" text-anchor="end" class="gpsc-item"
+              style="--gpsc-i: 1; fill: #e2e8f0; font-size: 14px; font-weight: 400;">1%</text>
+            <text x="16.8" y="80.4" class="gpsc-item"
+              style="--gpsc-i: 2; fill: #cbd5e1; font-size: 14px;">TypeScript</text>
+            <text x="115" y="80.4" text-anchor="end" class="gpsc-item"
+              style="--gpsc-i: 2; fill: #e2e8f0; font-size: 14px; font-weight: 400;">65%</text>
+            <text x="16.8" y="105.60000000000002" class="gpsc-item"
+              style="--gpsc-i: 3; fill: #cbd5e1; font-size: 14px;">C#</text>
+            <text x="60" y="105.60000000000002" text-anchor="end" class="gpsc-item"
+              style="--gpsc-i: 3; fill: #e2e8f0; font-size: 14px; font-weight: 400;">7%</text>
+            <text x="16.8" y="130.8" class="gpsc-item"
+              style="--gpsc-i: 4; fill: #cbd5e1; font-size: 14px;">Python</text>
+            <text x="86" y="130.8" text-anchor="end" class="gpsc-item"
+              style="--gpsc-i: 4; fill: #e2e8f0; font-size: 14px; font-weight: 400;">5%</text>
+          </g>
+          <g transform="translate( 284, 80 )">
+            <circle cx="0" cy="0" r="47.5" fill="none" stroke="#21262d" stroke-width="25" />
+            <g class="donut-left">
+              <g class="lg-arc" style="--gpsc-i: 0;">
+                <path
+                  d="M3.67394039744206e-15,-60A60,60,0,1,1,-48.46001991095834,35.378333344428775L-28.26834494805903,20.637361117583453A35,35,0,1,0,2.1431318985078682e-15,-35Z"
+                  style="fill: #3178c6; stroke-width: 2px;" stroke="#1d252c"></path>
+              </g>
+              <g class="lg-arc" style="--gpsc-i: 1;">
+                <path
+                  d="M-48.46001991095834,35.378333344428775A60,60,0,0,1,-44.09435733524007,-40.690141941165066L-25.721708445556708,-23.735916132346286A35,35,0,0,0,-28.26834494805903,20.637361117583453Z"
+                  style="fill: #f1e05a; stroke-width: 2px;" stroke="#1d252c"></path>
+              </g>
+              <g class="lg-arc" style="--gpsc-i: 2;">
+                <path
+                  d="M-44.09435733524007,-40.690141941165066A60,60,0,0,1,-24.068563350666537,-54.96093392797244L-14.039995287888813,-32.060544791317255A35,35,0,0,0,-25.721708445556708,-23.735916132346286Z"
+                  style="fill: #7355dd; stroke-width: 2px;" stroke="#1d252c"></path>
+              </g>
+              <g class="lg-arc" style="--gpsc-i: 3;">
+                <path
+                  d="M-24.068563350666537,-54.96093392797244A60,60,0,0,1,-5.495805878393725,-59.74777081822394L-3.2058867623963394,-34.85286631063063A35,35,0,0,0,-14.039995287888813,-32.060544791317255Z"
+                  style="fill: #3572A5; stroke-width: 2px;" stroke="#1d252c"></path>
+              </g>
+              <g class="lg-arc" style="--gpsc-i: 4;">
+                <path
+                  d="M-5.495805878393725,-59.74777081822394A60,60,0,0,1,-1.1021821192326178e-14,-60L-6.429395695523604e-15,-35A35,35,0,0,0,-3.2058867623963394,-34.85286631063063Z"
+                  style="fill: #dea584; stroke-width: 2px;" stroke="#1d252c"></path>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+
+    <!-- Right Card: GitHub Stats -->
+    <g transform="translate(360, 0)">
+      <g class="gpsc-root">
+        <rect x="1" y="1" rx="5" ry="5" height="163" width="338" stroke="#000000"
+          stroke-width="1" fill="none" stroke-opacity="0"></rect>
+        <text x="0" y="16" class="gpsc-item" style="--gpsc-i: 0; font-size: 17px; fill: #e2e8f0;">GitHub
+          Stats</text>
+        <g transform="translate(0,16)">
+          <g transform="translate(0,0)">
+            <g class="gpsc-item" style="--gpsc-i: 0;">
+              <rect y="18" width="14" height="14" rx="3" style="fill: #3178c6; stroke-width: 1px;"
+                stroke="#1d252c"></rect>
+              <text x="16.8" y="30" style="fill: #cbd5e1; font-size: 14px;">Total Stars</text>
+              <text x="176" y="30" text-anchor="end"
+                style="fill: #e2e8f0; font-size: 14px; font-weight: 400;">5</text>
+            </g>
+            <g class="gpsc-item" style="--gpsc-i: 1;">
+              <rect y="43.2" width="14" height="14" rx="3" style="fill: #7355dd; stroke-width: 1px;"
+                stroke="#1d252c"></rect>
+              <text x="16.8" y="55.2" style="fill: #cbd5e1; font-size: 14px;">Total Commits</text>
+              <text x="176" y="55.2" text-anchor="end"
+                style="fill: #e2e8f0; font-size: 14px; font-weight: 400;">2.256</text>
+            </g>
+            <g class="gpsc-item" style="--gpsc-i: 2;">
+              <rect y="68.4" width="14" height="14" rx="3" style="fill: #f1e05a; stroke-width: 1px;"
+                stroke="#1d252c"></rect>
+              <text x="16.8" y="80.4" style="fill: #cbd5e1; font-size: 14px;">Total PRs</text>
+              <text x="176" y="80.4" text-anchor="end"
+                style="fill: #e2e8f0; font-size: 14px; font-weight: 400;">1</text>
+            </g>
+            <g class="gpsc-item" style="--gpsc-i: 3;">
+              <rect y="93.60000000000002" width="14" height="14" rx="3"
+                style="fill: #dea584; stroke-width: 1px;" stroke="#1d252c"></rect>
+              <text x="16.8" y="105.60000000000002" style="fill: #cbd5e1; font-size: 14px;">Total
+                Issues</text>
+              <text x="176" y="105.60000000000002" text-anchor="end"
+                style="fill: #e2e8f0; font-size: 14px; font-weight: 400;">0</text>
+            </g>
+            <g class="gpsc-item" style="--gpsc-i: 4;">
+              <rect y="118.80000000000001" width="14" height="14" rx="3"
+                style="fill: #3572A5; stroke-width: 1px;" stroke="#1d252c"></rect>
+              <text x="16.8" y="130.8" style="fill: #cbd5e1; font-size: 14px;">Contributed to</text>
+              <text x="176" y="130.8" text-anchor="end"
+                style="fill: #e2e8f0; font-size: 14px; font-weight: 400;">10</text>
+            </g>
+          </g>
+          <g transform="translate(217.5,22)">
+            <g transform="scale(7.35)" style="fill: #3178c6;">
+              <path fill-rule="evenodd"
+                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 854 60" width="1708" height="120">
+  <defs>
+    <linearGradient id="wave-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F7FF" />
+      <stop offset="25%" stop-color="#0EA5E9" />
+      <stop offset="50%" stop-color="#8B5CF6" />
+      <stop offset="75%" stop-color="#EC4899" />
+      <stop offset="100%" stop-color="#F43F5E" />
+    </linearGradient>
+    <style>
+      /* wave paths */
+      @keyframes wave1 {
+        0%   { d: path("M0 60L0 0Q213.5 40 427 10T854 35L854 60Z"); }
+        33%  { d: path("M0 60L0 25Q213.5 40 427 20T854 10L854 60Z"); }
+        66%  { d: path("M0 60L0 45Q213.5 15 427 45T854 10L854 60Z"); }
+        100% { d: path("M0 60L0 0Q213.5 40 427 10T854 35L854 60Z"); }
+      }
+      @keyframes wave2 {
+        0%   { d: path("M0 60L0 15Q213.5 60 427 30T854 40L854 60Z"); }
+        33%  { d: path("M0 60L0 30Q213.5 0 427 0T854 20L854 60Z"); }
+        66%  { d: path("M0 60L0 25Q213.5 5 427 30T854 45L854 60Z"); }
+        100% { d: path("M0 60L0 15Q213.5 60 427 30T854 40L854 60Z"); }
+      }
+      .wave1 {
+        fill: url(#wave-gradient);
+        opacity: 0.45;
+        animation: wave1 20s ease-in-out infinite;
+      }
+      .wave2 {
+        fill: url(#wave-gradient);
+        opacity: 0.30;
+        animation: wave2 20s ease-in-out infinite;
+        animation-delay: -10s;
+      }
+
+      /* hero text */
+      @keyframes shimmer {
+        0%   { stop-color: #00F7FF; }
+        25%  { stop-color: #8B5CF6; }
+        50%  { stop-color: #F43F5E; }
+        75%  { stop-color: #0EA5E9; }
+        100% { stop-color: #00F7FF; }
+      }
+      @keyframes twinkle-text {
+        40% { opacity: 1;    }
+        50% { opacity: 0.55; }
+        60% { opacity: 1;    }
+        70% { opacity: 0.55; }
+        80% { opacity: 1;    }
+      }
+      .hero-text {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        font-weight: 800;
+        font-size: 80px;
+        letter-spacing: -2px;
+        fill: url(#wave-gradient);
+        animation: twinkle-text 4s ease-in-out infinite;
+      }
+      .sub-text {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        fill: rgba(255,255,255,0.6);
+        letter-spacing: 0.5px;
+      }
+
+      /* banner background is transparent now - keep subtitle readable on light themes */
+      @media (prefers-color-scheme: light) {
+        .sub-text { fill: rgba(30, 41, 59, 0.55); }
+      }
+    </style>
+  </defs>
+
+  <!-- Animated wave paths (bottom) -->
+  <path class="wave1" d="M0 60L0 0Q213.5 40 427 10T854 35L854 60Z" />
+  <path class="wave2" d="M0 60L0 15Q213.5 60 427 30T854 40L854 60Z" />
+</svg>
