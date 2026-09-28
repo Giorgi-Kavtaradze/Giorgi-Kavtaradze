@@ -1,7 +1,5 @@
 <img src="public/banner/banner-top.svg" width="100%" alt="banner-top" />
 
-### I’m Full-Stack Developer
-
 All of my projects are available at **[My Portfolio](https://your-portfolio.com)**
 All of my projects are available at **[My Portfolio](https://web-portfolio-frsm.vercel.app)**
 
@@ -74,75 +72,11 @@ All of my projects are available at **[My Portfolio](https://web-portfolio-frsm.
 ![Trivy](https://img.shields.io/badge/Trivy-1D2935?style=flat-square&logo=aquasecurity&logoColor=white)
 ![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-000000?style=flat-square&logo=opentelemetry&logoColor=white)
 
-**Contact** giorgi.kavtaradze2000@gmail.com
+**Socials**
+[![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=twitter&logoColor=white)](https://twitter.com/yourprofile)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/giorgi-kavtaradze-52b095370)
+[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=facebook&logoColor=white)](https://facebook.com/yourprofile)
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=instagram&logoColor=white)](https://instagram.com/yourprofile)
 
-### Socials
-
-<table>
-  <tr>
-    <td><a href="https://twitter.com/yourprofile"><img src="https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=twitter&logoColor=white"></a></td>
-    <td><a href="https://www.linkedin.com/in/giorgi-kavtaradze-52b095370"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white"></a></td>
-    <td><a href="https://facebook.com/yourprofile"><img src="https://img.shields.io/badge/Facebook-%231877F2.svg?logo=facebook&logoColor=white"></a></td>
-    <td><a href="https://instagram.com/yourprofile"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=instagram&logoColor=white"></a></td>
-  </tr>
-</table>
- 
-### Tech Stack
-<table width="100%">
-  <tr>
-    <td align="center" width="7.14%"><img src="public/assets/javascript.png" width="45" height="45" alt="JavaScript" /></td>
-    <td align="center" width="7.14%"><img src="public/assets/typescript.png" width="45" height="45" alt="TypeScript" /></td>
-    <td align="center" width="7.14%"><img src="public/assets/py.png" width="38" height="39" alt="Python" /></td>
-    <td align="center" width="7.14%"><img src="public/assets/go.png" width="38" height="39" alt="Go" /></td>
-    <td align="center" width="7.14%"><img src="public/assets/rust.png" width="40" height="40" alt="Rust" /></td>
-    <td align="center" width="7.14%"><img src="public/assets/c.png" width="40" height="40" alt="C#" /></td>
-    <td align="center" width="7.14%"><img src="public/assets/c++.png" width="40" height="40" alt="C++" /></td>
-    <td align="center" width="7.14%"><img src="public/assets/reactjs.png" width="38" height="38" alt="React" /></td>
-    <td align="center" width="7.14%"><img src="public/assets/nextjs.png" width="40" height="40" alt="Next.js" /></td>
-    <td align="center" width="7.14%"><img src="public/assets/vue3.png" width="38" height="38" alt="Vue" /></td>
-    <td align="center" width="7.14%"><img src="public/assets/nuxt.png" width="45" height="45" alt="Nuxt" /></td>
-    <td align="center" width="7.14%"><img src="public/assets/angular.gif" width="40" height="40" alt="Angular" /></td>
-    <td align="center" width="7.14%"><img src="public/assets/expo.png" width="40" height="40" alt="Expo" /></td>
-    <td align="center" width="7.14%"><img src="public/assets/tailwind.png" width="40" height="40" alt="Tailwind CSS" /></td>
-  </tr>
-  <tr>
-    <td align="center" width="7.14%"><img src="public/assets/shadcn.webp" width="40" height="40" alt="ShadCN/UI" /></td>
-    <td align="center" width="7.14%"><img src="public/assets/magic.png" width="40" height="40" alt="Magic UI" /></td>
-    <td align="center" width="7.14%"><img src="public/assets/bootstrap5.png" width="45" height="45" alt="Bootstrap 5" /></td>
-    <td align="center" width="7.14%"><img src="public/assets/threejs.png" width="40" height="40" alt="Three.js" /></td>
-    <td align="center" width="7.14%"><img src="public/assets/motion.png" width="40" height="40" alt="Motion" /></td>
-    <td align="center" width="7.14%"><img src="public/assets/gsap3.png" width="40" height="40" alt="GSAP" /></td>
-    <td align="center" width="7.14%"><img src="public/assets/redux.png" width="40" height="40" alt="Redux" /></td>
-    <td align="center" width="7.14%"><img src="public/assets/icon.png" width="43" height="43" alt="Zustand" /></td>
-    <td align="center" width="7.14%"><img src="public/assets/ngrx.svg" width="35" height="35" alt="NgRx" /></td>
-    <td align="center" width="7.14%"><img src="public/assets/nuqs.svg" width="40" height="40" alt="nuqs" /></td>
-    <td align="center" width="7.14%"><img src="public/assets/zod.png" width="40" height="40" alt="Zod" /></td>
-    <td align="center" width="7.14%"><img src="public/assets/nodejs.png" width="40" height="40" alt="Node.js" /></td>
-    <td align="center" width="7.14%"><img src="public/assets/NestJS.svg" width="40" height="40" alt="NestJS" /></td>
-    <td align="center" width="7.14%"><img src="public/assets/express.webp" width="38" height="39" alt="Express" /></td>
-  </tr>
-  <tr>
-    <td align="center" width="7.14%"><img src="public/assets/django-rest.png" width="38" height="39" alt="Django REST" /></td>
-    <td align="center" width="7.14%"><img src="public/assets/flusk.png" width="40" height="40" alt="Flask" /></td>
-    <td align="center" width="7.14%"><img src="public/assets/dotnetcore.png" width="40" height="40" alt=".NET Core" /></td>
-    <td align="center" width="7.14%"><img src="public/assets/seket.png" width="35" height="35" alt="Socket.io" /></td>
-    <td align="center" width="7.14%"><img src="public/assets/Postgresql.webp" width="40" height="40" alt="PostgreSQL" /></td>
-    <td align="center" width="7.14%"><img src="public/assets/mysql.png" width="43" height="43" alt="MySQL" /></td>
-    <td align="center" width="7.14%"><img src="public/assets/mongo.png" width="40" height="40" alt="MongoDB" /></td>
-    <td align="center" width="7.14%"><img src="public/assets/redis.png" width="38" height="38" alt="Redis" /></td>
-    <td align="center" width="7.14%"><img src="public/assets/neon.png" width="40" height="40" alt="Neon" /></td>
-    <td align="center" width="7.14%"><img src="public/assets/supabase.png" width="40" height="40" alt="Supabase" /></td>
-    <td align="center" width="7.14%"><img src="public/assets/g.png" width="40" height="38" alt="Convex" /></td>
-    <td align="center" width="7.14%"><img src="public/assets/clerk.png" width="40" height="40" alt="Clerk" /></td>
-    <td align="center" width="7.14%"><img src="public/assets/sanity.png" width="37" height="37" alt="Sanity" /></td>
-    <td align="center" width="7.14%"><img src="public/assets/docker.png" width="40" height="40" alt="Docker" /></td>
-  </tr>
-</table>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/czl9707/gh-space-shooter/main/example.gif">
-  <source media="(prefers-color-scheme: light)" srcset="./public/transparent-pixel.png">
-  <img src="https://raw.githubusercontent.com/czl9707/gh-space-shooter/main/example.gif" alt="Space shooter contribution graph">
-</picture>
-
-<img src="public/banner/banner.svg" width="100%" alt="banner" />
+<!-- ### Tech Stack -->
+<img src="public/banner/tech-stack-universe.svg" width="100%" alt="Tech Stack Universe">
