@@ -204,6 +204,9 @@
         <circle class="tw" cx="1330" cy="340" r="3" style="animation-delay:-1.7s" />
         <circle class="tw" cx="1600" cy="360" r="3.5" style="animation-delay:-3.2s" />
         <circle class="tw" cx="1820" cy="340" r="2.5" style="animation-delay:-2s" />
+        <circle class="tw" cx="1950" cy="240" r="3" style="animation-delay:-2s" />
+        <circle class="tw" cx="1980" cy="140" r="3" style="animation-delay:-2s" />
+        <circle class="tw" cx="1980" cy="310" r="3" style="animation-delay:-2s" />
         <!-- left-side stars -->
         <circle class="tw" cx="60" cy="50" r="3" style="animation-delay:-1.3s" />
         <circle class="tw" cx="180" cy="30" r="2.5" style="animation-delay:-2.8s" />
@@ -217,6 +220,9 @@
         <circle class="tw" cx="380" cy="330" r="3" style="animation-delay:-1.1s" />
         <circle class="tw" cx="540" cy="350" r="3.5" style="animation-delay:-3.6s" />
         <circle class="tw" cx="640" cy="180" r="2.5" style="animation-delay:-0.3s" />
+        <circle class="tw" cx="740" cy="290" r="3" style="animation-delay:-0.3s" />
+        <circle class="tw" cx="510" cy="260" r="3" style="animation-delay:-0.3s" />
+        <circle class="tw" cx="610" cy="320" r="3" style="animation-delay:-0.3s" />
       </g>
       <g transform="translate(120,85)" filter="url(#card-shadow)">
         <rect x="-14" y="-14" width="218" height="218" rx="56" fill="url(#brand-grad)"

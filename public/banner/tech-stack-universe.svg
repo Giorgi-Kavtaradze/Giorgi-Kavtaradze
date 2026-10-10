@@ -123,8 +123,8 @@
       .legend-text {
         font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
       }
-      .month { font-size: 10.5px; fill: rgba(226,232,240,.8); }
-      .legend-text { font-size: 12px; fill: rgba(148,163,184,.9); font-weight: 500; letter-spacing: .02em; }
+      .month { font-size: 13.5px; fill: rgba(226,232,240,.9); }
+      .legend-text { font-size: 12.5px; fill: rgba(148,163,184,.9); font-weight: 500; letter-spacing: .02em; }
       .cell { transform-box: fill-box; transform-origin: 50% 50%; shape-rendering: crispEdges; }
       /* GitHub contribution graph palette (dark default; light in the media query below) */
       .lvl0 { fill: #161b22; }
@@ -180,8 +180,8 @@
       @keyframes hitSpark { 0% { opacity: 0; transform: scale(.25) } 99.692% { opacity: 0; transform: scale(.25) } 99.702% { opacity: 1; transform: scale(.55) } 100% { opacity: 0; transform: scale(1.3) } }
 
       @media (prefers-color-scheme: light) {
-        .month { fill: rgba(87,96,106,.7); }
-        .legend-text { fill: rgba(87,96,106,.8); }
+        .month { fill: rgba(42, 42, 44, 0.9); }
+        .legend-text { fill: rgba(42, 42, 44, 0.9); }
         .legend-box { stroke: rgba(27,31,36,.1); }
         /* GitHub light palette */
         .lvl0 { fill: #ebedf0; }
@@ -258,6 +258,9 @@
       .hb-flow { stroke-dasharray: 10 14; animation: hb-dash-flow 3s linear infinite; }
       .hb-pulse { animation: hb-pulse-dot 2.6s ease-in-out infinite; }
       .hb-tw { animation: hb-twinkle 5s ease-in-out infinite; }
+      /* stars between contribution cells and hero: white on dark, slate on light */
+      .craft-stars { fill: #FFFFFF; }
+      @media (prefers-color-scheme: light) { .craft-stars { fill: #0F172A; } }
       .hb-name { font-size: 85px; font-weight: 800; letter-spacing: -3px; fill: url(#hb-brand-grad-h); }
       .hb-role { font-size: 32px; font-weight: 700; letter-spacing: 6px; fill: #CBD5E1; }
       .hb-site { font-size: 24px; font-weight: 500; letter-spacing: 1px; fill: #94A3B8; }
@@ -270,8 +273,8 @@
     <!-- /hero-banner embed: defs -->
   </defs>
   <!-- stars: banner-top.svg analog, full-background layer (behind content) -->
-  <!-- starfield: full-canvas -->
-  <g fill="white">
+  <!-- starfield: full-canvas (dark theme only — hidden in GitHub light mode via .dark-only) -->
+  <g class="dark-only" fill="white">
     <g class="s1">
       <circle cx="824" cy="946" r="1" fill="white" />
       <circle cx="158" cy="1032" r="1" fill="white" />
@@ -1658,13 +1661,45 @@
           transform="rotate(45 1342 192)" />
       </g>
 
-      <!-- Twinkles -->
-      <g fill="#0F172A" opacity="0.35">
+      <!-- Twinkles (dark theme only — hidden in GitHub light mode via .dark-only) -->
+      <g class="dark-only" fill="#0F172A" opacity="0.35">
         <circle class="hb-tw" cx="900" cy="60" r="3" />
         <circle class="hb-tw" cx="1200" cy="320" r="3" style="animation-delay:-2s" />
         <circle class="hb-tw" cx="1700" cy="50" r="3" style="animation-delay:-1s" />
         <circle class="hb-tw" cx="1950" cy="200" r="3" style="animation-delay:-3s" />
         <circle class="hb-tw" cx="1050" cy="180" r="2.5" style="animation-delay:-1.5s" />
+      </g>
+
+      <!-- stars raised up to the contribution cells (own group: full opacity, dark-only) -->
+      <g class="craft-stars dark-only">
+        <circle class="hb-tw" cx="157" cy="-14" r="3" style="animation-delay:-0.9s" />
+        <circle class="hb-tw" cx="246" cy="33" r="4" style="animation-delay:-3.6s" />
+        <circle class="hb-tw" cx="329" cy="-79" r="3" style="animation-delay:-1.7s" />
+        <circle class="hb-tw" cx="441" cy="-41" r="3.5" style="animation-delay:-2.9s" />
+        <circle class="hb-tw" cx="526" cy="12" r="4.5" style="animation-delay:-0.4s" />
+        <circle class="hb-tw" cx="618" cy="-66" r="3" style="animation-delay:-3.1s" />
+        <circle class="hb-tw" cx="703" cy="47" r="3.5" style="animation-delay:-1.2s" />
+        <circle class="hb-tw" cx="795" cy="-22" r="4" style="animation-delay:-2.2s" />
+        <circle class="hb-tw" cx="884" cy="-74" r="3" style="animation-delay:-0.6s" />
+        <circle class="hb-tw" cx="1058" cy="-49" r="4" style="animation-delay:-1.5s" />
+        <circle class="hb-tw" cx="1146" cy="55" r="3" style="animation-delay:-2.6s" />
+        <circle class="hb-tw" cx="1239" cy="-9" r="4.5" style="animation-delay:-0.3s" />
+        <circle class="hb-tw" cx="1327" cy="-63" r="3.5" style="animation-delay:-3.4s" />
+        <circle class="hb-tw" cx="1509" cy="-35" r="4" style="animation-delay:-2.8s" />
+        <circle class="hb-tw" cx="1597" cy="8" r="3" style="animation-delay:-4.2s" />
+        <circle class="hb-tw" cx="1784" cy="-18" r="3" style="animation-delay:-3s" />
+        <circle class="hb-tw" cx="1876" cy="44" r="3.5" style="animation-delay:-0.7s" />
+        <circle class="hb-tw" cx="1948" cy="15" r="3" style="animation-delay:-2.5s" />
+        <circle class="hb-tw" cx="25" cy="-82" r="3" style="animation-delay:-1.4s" />
+        <circle class="hb-tw" cx="86" cy="152" r="3.5" style="animation-delay:-1s" />
+        <circle class="hb-tw" cx="20" cy="212" r="3" style="animation-delay:-3.8s" />
+        <circle class="hb-tw" cx="72" cy="262" r="3" style="animation-delay:-1.6s" />
+        <circle class="hb-tw" cx="1692" cy="130" r="3" style="animation-delay:-1.6s" />
+        <circle class="hb-tw" cx="1800" cy="210" r="4" style="animation-delay:-1.6s" />
+        <circle class="hb-tw" cx="1940" cy="160" r="4" style="animation-delay:-1.6s" />
+        <circle class="hb-tw" cx="40" cy="350" r="3" style="animation-delay:-1.6s" />
+        <circle class="hb-tw" cx="1000" cy="350" r="3" style="animation-delay:-1.6s" />
+        <circle class="hb-tw" cx="1100" cy="275" r="3" style="animation-delay:-1.6s" />
       </g>
 
       <!-- ===== Modern badge (replaces the profile illustration) ===== -->
