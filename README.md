@@ -1,4 +1,4 @@
-<img src="public/banner/banner-top.svg" width="100%" alt="banner-top" />
+<picture><img src="public/banner/banner-top.svg" width="100%" alt="banner-top" /></picture>
 
 All of my projects are available at **[My Portfolio](https://your-portfolio.com)**
 All of my projects are available at **[My Portfolio](https://your-portfolio.com)**
@@ -80,5 +80,5 @@ All of my projects are available at **[My Portfolio](https://your-portfolio.com)
 [![Gmail](https://img.shields.io/badge/Gmail-%23D14836.svg?logo=gmail&logoColor=white)](mailto:giorgi.kavtaradze2010@gmail.com)
 [![Email](https://img.shields.io/badge/Email-%23168DE2.svg?logo=gmail&logoColor=white)](mailto:giorgi.kavtaradze2010@mail.ru)
 
-<img src="public/banner/github-profile-summary.svg" width="100%" alt="GitHub Profile Summary" />
-<img src="public/banner/tech-stack-universe.svg" width="100%" alt="Tech Stack Universe" />
+<picture><img src="public/banner/github-profile-summary.svg" width="100%" alt="GitHub Profile Summary" /></picture>
+<picture><img src="public/banner/tech-stack-universe.svg" width="100%" alt="Tech Stack Universe" /></picture>
